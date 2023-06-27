@@ -52,3 +52,7 @@ void Array::rand_init(){
 int Array::get_size(){
     return size;
 }
+
+int& Array::operator [] (int i){
+    return arr[i];
+}
