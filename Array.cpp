@@ -53,6 +53,6 @@ int Array::get_size(){
     return size;
 }
 
-int& Array::operator [] (int i){
+int Array::operator [] (int i){
     return arr[i];
 }

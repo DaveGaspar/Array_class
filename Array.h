@@ -16,7 +16,7 @@ class Array{
         int get_element(int const);
         int get_size();
         void rand_init();
-        int& operator [](int);
+        int operator [](int);
 };
 
 #endif
