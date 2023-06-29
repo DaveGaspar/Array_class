@@ -53,6 +53,14 @@ int Array::get_size(){
     return size;
 }
 
-int Array::operator [] (int i){
+int& Array::operator [] (int i){
+    return arr[i];
+}
+
+int& Array::at(int i){
+    if (i < 0 || i > size){
+        std::cerr << "\nIndex is not in range" << std::endl;
+        abort();
+    }
     return arr[i];
 }

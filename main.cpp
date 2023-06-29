@@ -39,7 +39,7 @@ int main()
     std::cout << "\nArr2 = ";
     for (int i = 0; i < arr2.get_size(); i++)
     {
-        std::cout << arr2[i] << "\t";
+        std::cout << arr2.at(i) << "\t";
     }
     std::cout << std::endl;
 
